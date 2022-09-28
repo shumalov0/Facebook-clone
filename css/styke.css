@@ -210,7 +210,7 @@ body{
     -moz-border-radius: 15px;
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
-    box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 5px 7px rgba(114, 111, 111, 0.75);
 }
 
 .mesagesender-top{
@@ -264,4 +264,81 @@ body{
   -o-border-radius: 20px;
 }
 
+/* post */
 
+.post{
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    background-color: #ffff;
+    box-shadow: 0px 5px 7px rgba(110, 108, 108, 0.75);
+}
+
+.post-image img{
+    width: 100%;
+}
+
+.post-top{
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding: 15px;
+
+
+}
+.post-avatar{
+    margin-right: 10px;
+
+}
+
+.post-top-info h3{
+    font-size: medium;
+
+}
+.post-top-info p{
+    font-size: small;
+    color: gray;
+
+}
+.post-bottom{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 15px 25px;
+}
+
+.post-options{
+    padding-top: 10px;
+    border-top: 1px solid lightgray;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: medium;
+    color: gray;
+    cursor: pointer;
+    padding: 15px;
+}
+.post-option{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    flex: 1;
+   
+}
+.post-option p,.pp{
+   padding: 0;
+    margin: 0;
+
+}
+.post-option:hover{
+    background-color: #eff2f5;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
